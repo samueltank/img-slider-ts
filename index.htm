@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Slides desenvolvidos para aperfeiçoamento de habilidades com html5, css3 e EcmaScript 5"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/slider.css" />
+
+    <script src="./assets/js/main.js" defer="defer"></script>
+
+    <title>Image Slider</title>
+  </head>
+  <body>
+
+    <section class="sec-container">
+      <div class="slides">
+        <input type="radio" name="radio" id="radio1">
+        <input type="radio" name="radio" id="radio2">
+        <input type="radio" name="radio" id="radio3">
+        <input type="radio" name="radio" id="radio4">
+
+        <div class="slide first">
+          <img src="./assets/imgs/woman_involving.jpg" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/imgs/woman_choco.jpg" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/imgs/woman_dress_balcony.jpg" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/imgs/woman_dress_in_beach.jpg" alt="">
+        </div>
+
+
+        <div class="navegation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+
+        <div class="navegation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>        
+      </div>
+    </section>
+  </body>
+</html>
